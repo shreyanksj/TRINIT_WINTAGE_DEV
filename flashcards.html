@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Flashcards - LinguaConnect</title>
+  <link rel="stylesheet" href="flashcards.css">
+</head>
+<body>
+  <div class="container">
+    <h2>Flashcards</h2>
+    <form id="flashcardForm">
+      <label for="question">Question:</label>
+      <input type="text" id="question" name="question" required>
+
+      <label for="answer">Answer:</label>
+      <input type="text" id="answer" name="answer" required>
+
+      <input type="submit" value="Add Flashcard">
+    </form>
+
+    <div id="flashcardList"></div>
+  </div>
+
+  <script src="flashcards.js"></script>
+</body>
+</html>

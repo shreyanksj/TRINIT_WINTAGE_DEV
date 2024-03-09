@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Scheduling - LinguaConnect</title>
+  <link rel="stylesheet" href="tutor_search.css">
+</head>
+<body>
+  <div class="container">
+    <h2>Schedule a Lesson</h2>
+    <form id="schedulingForm">
+      <label for="tutor">Select Tutor:</label>
+      <select id="tutor" name="tutor">
+        <!-- Options for tutors will be populated dynamically -->
+      </select>
+
+      <label for="timeSlot">Select Time Slot:</label>
+      <select id="timeSlot" name="timeSlot">
+        <!-- Options for time slots will be populated dynamically -->
+      </select>
+
+      <label for="lessonLength">Select Lesson Length:</label>
+      <select id="lessonLength" name="lessonLength">
+        <option value="45">45 minutes</option>
+        <option value="60">60 minutes</option>
+        <option value="90">90 minutes</option>
+      </select>
+
+      <input type="submit" value="Schedule Lesson">
+    </form>
+  </div>
+
+  <script src="scheduling.js"></script>
+</body>
+</html>

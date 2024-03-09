@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Video Call - LinguaConnect</title>
+  <link rel="stylesheet" href="video_call.css">
+</head>
+<body>
+  <div class="container">
+    <h2>Video Call</h2>
+    <div id="localVideo"></div>
+    <div id="remoteVideo"></div>
+    <button id="startCall">Start Call</button>
+    <button id="endCall">End Call</button>
+  </div>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/2.3.0/socket.io.js"></script>
+  <script src="https://cdn.simplewebrtc.com/latest/simplewebrtc.bundle.js"></script>
+  <script src="video_call.js"></script>
+</body>
+</html>
